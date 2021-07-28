@@ -11,6 +11,7 @@ function Contact() {
   const[email, setEmail] = useState("");
   const[name, setName] = useState("");
   const[message, setMessage] = useState("");
+  const[errorMsg, setErrorMsg] = useState("");
 
   //For when an email address is being entered, update the useState to email in the input field
   const handleInputChange = (event) => {
@@ -21,52 +22,44 @@ function Contact() {
 
     if(inputName === "email") {
       setEmail(inputValue);
-      if(inputValue === "") {
-        window.alert("This is a required field");
-      }
     } else if (inputName ==="name") {
       setName(inputValue);
-      if(inputValue === "") {
-        window.alert("This is a required field");
-      }
     } else if (inputName === "message") {
       setMessage(inputValue);
-      if(inputValue === "") {
-        window.alert("This is a required field");
-      }
     }
     
   };
-
-  // const handleEmptyInput = (event) => {
-  //   const { target } = event;
-  //   const inputName = target.name;
-  //   const inputValue = target.value;
-
-  //   if(inputName === "email" && inputValue === "") {
-  //     window.alert("This is a required field");
-  //   }
-  //   if(inputName === "name" && inputValue === "") {
-  //     window.alert("This is a required field");
-  //   }
-  //   if(inputName === "message" && inputValue === "") {
-  //     window.alert("This is a required field");
-  //   }
-  // };
-  
 
   //For when the form is submitted
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
+    if(!name) {
+      setErrorMsg("Name field is required");
+      return;
+    }
+
+    if(!email) {
+      setErrorMsg("Email field is required");
+      return;
+    }
+
+    if(!message) {
+      setErrorMsg("Message field is required");
+      return;
+    }
+
     //run validateEmail using helpers and passing in email
     if(!validateEmail(email)) {
-      window.alert("Please enter a valid email address");
+      setErrorMsg("Please enter a valid email address");
       return;
     };
 
     //Clear the input field from email entered previously
     setEmail("");
+    setName("");
+    setMessage("");
+    setErrorMsg("");
   };
 
   return (
@@ -115,6 +108,11 @@ function Contact() {
                 </textarea>
               </div>
             </div>
+            {errorMsg && (
+            <div className="center-align">
+              <p id="errorMsg">{errorMsg}</p>
+            </div>
+            )}
             <div className="center-align">
                 <button 
                 type="submit" 
