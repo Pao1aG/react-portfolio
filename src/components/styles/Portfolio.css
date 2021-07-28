@@ -3,15 +3,15 @@
     overflow: hidden;
 }
 
-.card a, .card-title {
-    font-size: 1.5rem;
-}
-
 .card .card-title {
     font-size: 3.4rem;
-    background-color:rgb(69, 122, 126);
+    background-color:rgb(167, 129, 26);
     opacity: 95%;
     border-radius: 4px;;
+}
+
+.card a, .card-title {
+    font-size: 1.5rem;
 }
 
 .card-action {

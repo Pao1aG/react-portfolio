@@ -3,8 +3,7 @@ footer a {
 }
 
 footer a:hover {
-    opacity: 50%;
-    font-size: 250%;
+    opacity: 60%;
 }
 
 .flexLinks{
