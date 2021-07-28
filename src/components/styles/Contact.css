@@ -1,0 +1,10 @@
+.contactForm {
+    border: 2px solid rgb(182, 141, 141);
+    padding: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.contactForm h4{
+    text-align: center;
+}
