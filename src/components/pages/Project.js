@@ -22,8 +22,8 @@ function Project({title, img, description, github, deployed}) {
                     <p>{description}</p>
                 </div>
                 <div className="card-action">
-                    <a href={github}>GitHub</a>
-                    <a href={deployed}>Deployed App</a>
+                    <a href={github} target="_blank" rel="noreferrer">GitHub</a>
+                    <a href={deployed} target="_blank" rel="noreferrer">Deployed App</a>
                 </div>
             </div>
         </div>
