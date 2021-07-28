@@ -8,8 +8,8 @@ function Footer() {
         <footer className="page-footer pink darken-4">
             <div className="container">
                 <ul className="center-align flexLinks">
-                    <li><a className="grey-text text-lighten-3" href="#!">GitHub</a></li>
-                    <li><a className="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                    <li><a className="grey-text text-lighten-3" href="https://www.github.com/Pao1aG/">GitHub</a></li>
+                    <li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/paolaagonzalezm/">LinkedIn</a></li>
                     <li><a className="grey-text text-lighten-3" href="#!">Facebook</a></li>
                 </ul>
             </div>

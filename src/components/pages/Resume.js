@@ -11,7 +11,7 @@ function Resume() {
             <a href="images/paolaG_resume.png" download="Paola's Resume" id="download"> Click Here to Download Resume </a>
         </div>
         <div className="center-align">
-            <img src="images/paolaG_resume.png" className="responsive-img"/>
+            <img src="images/paolaG_resume.png" className="responsive-img" alt=""/>
         </div>
         </>
     )

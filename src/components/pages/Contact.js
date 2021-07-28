@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Contact.css";
 //CONTACT ME
     // Contact form with fields for a name, email address, and message
         //Notification that field is required if cursor is moved without entering text
