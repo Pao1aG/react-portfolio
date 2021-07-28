@@ -11,6 +11,24 @@ import React from 'react';
 // A link to the corresponding GitHub repository
 
 function Project() {
+    return (
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/sample-1.jpg"/>
+                    <span class="card-title">Technologies</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">GitHub Project Name</a>
+                    <a href="#">Deployed Project Name</a>
+                </div>
+            </div>
+        </div>
+    )
 
 }
 

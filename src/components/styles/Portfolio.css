@@ -1,0 +1,16 @@
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card a, .card-title {
+    font-size: 1.5rem;
+}
+
+.card-action {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
