@@ -6,10 +6,6 @@ import Portfolio from "../components/pages/Portfolio";
 import Contact from "../components/pages/Contact";
 import Resume from "../components/pages/Resume";
 
-//IMPORTING CHECK PASSWORD FUNCTION
-// import {checkPassword} from "../utils/helpers";
-
-
 // A single Navigation component within the header that will be used 
 //to conditionally render the different sections of your portfolio-----------
 

@@ -22,11 +22,25 @@ function Contact() {
 
     if(inputName === "email") {
       setEmail(inputValue);
+      if(inputValue === "") {
+        setErrorMsg("Email field is required")
+        return;
+      }
     } else if (inputName ==="name") {
       setName(inputValue);
+      if(inputValue === "") {
+        setErrorMsg("Name field is required")
+        return;
+      }
     } else if (inputName === "message") {
       setMessage(inputValue);
-    }
+      if(inputValue === "") {
+        setErrorMsg("Message field is required")
+        return;
+      }
+    };
+
+    setErrorMsg("");
     
   };
 

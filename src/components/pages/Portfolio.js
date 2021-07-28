@@ -5,8 +5,6 @@ import "../styles/Portfolio.css";
 //PORTFOLIO
     //render Project.js
 
-//MAP OVER CARD ARRAY TO FILL OUT PROJECT COMPONENT WITH PROPS
-
 const projects = [
     {
         title: "Hairdresser Website",
@@ -74,6 +72,7 @@ const projects = [
     },
 ]
 
+//MAP OVER CARD ARRAY TO FILL OUT PROJECT COMPONENT WITH PROPS
 function Portfolio() {
     return(
         <div className="row">
