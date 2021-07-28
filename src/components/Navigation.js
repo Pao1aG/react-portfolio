@@ -6,7 +6,7 @@ import Contact from "../components/pages/Contact";
 import Resume from "../components/pages/Resume";
 
 //IMPORTING CHECK PASSWORD FUNCTION
-import {checkPassword} from "../utils/helpers";
+// import {checkPassword} from "../utils/helpers";
 
 
 // A single Navigation component within the header that will be used 
@@ -37,10 +37,10 @@ function Navigation() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <>
+        <main>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-        </>
+        </main>
     );
     
 }
