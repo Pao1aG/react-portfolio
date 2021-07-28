@@ -17,7 +17,7 @@ const projects = [
         id: 1,
     },
     {
-        title: "Techblog",
+        title: "Tech Blog",
         img: "images/sample-1.jpg",
         description: "",
         github: "",

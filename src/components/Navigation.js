@@ -22,7 +22,7 @@ function Navigation() {
         if (currentPage === "About") {
             return <About />
         }
-        if (currentPage === "Porfolio") {
+        if (currentPage === "Portfolio") {
             return <Portfolio />
         }
         if (currentPage === "Contact") {
