@@ -7,6 +7,12 @@
     font-size: 1.5rem;
 }
 
+.card .card-title {
+    font-size: 4rem;
+    background-color:rgb(29, 81, 85);
+    opacity: 95%;
+}
+
 .card-action {
     display: flex;
     flex-direction: row;

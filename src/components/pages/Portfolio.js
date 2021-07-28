@@ -6,10 +6,28 @@ import "../styles/Portfolio.css";
     //render Project.js
 
 //MAP OVER CARD ARRAY TO FILL OUT PROJECT COMPONENT WITH PROPS
+
+const projects = [
+    {
+        title: "Hairdresser Website",
+        img: "",
+        description: "",
+        github: "",
+        deployed: ""
+    },
+]
+
 function Portfolio() {
     return(
         <div className="row">
-            <Project />
+            {projects.map((project) => 
+            <Project 
+            title={projects.title} 
+            img={projects.img}
+            description={projects.description}
+            github={projects.github}
+            deployed={projects.deployed} />)}
+            
         </div>
     )
 }
