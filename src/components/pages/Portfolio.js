@@ -10,7 +10,7 @@ import "../styles/Portfolio.css";
 const projects = [
     {
         title: "Hairdresser Website",
-        img: "/images/sample-1.jpg",
+        img: "/images/hairdresser.png",
         description: "",
         github: "https://github.com/JMan4342/Hair-Dresser",
         deployed: "https://jman4342.github.io/Hair-Dresser/Hairdresser.html",
@@ -18,7 +18,7 @@ const projects = [
     },
     {
         title: "Tech Blog",
-        img: "images/sample-1.jpg",
+        img: "images/techblog.png",
         description: "",
         github: "https://github.com/Pao1aG/Tech-Blog",
         deployed: "https://floating-brushlands-26906.herokuapp.com/signup",
@@ -26,7 +26,7 @@ const projects = [
     },
     {
         title: "Cities2See",
-        img: " images/sample-1.jpg",
+        img: " images/cities.png",
         description: "",
         github: "https://github.com/Pao1aG/Cities2See",
         deployed: "https://cities2see.herokuapp.com/",
@@ -34,7 +34,7 @@ const projects = [
     },
     {
         title: "Weather Dashboard",
-        img: "images/sample-1.jpg",
+        img: "images/weather.png",
         description: "",
         github: "https://github.com/Pao1aG/Weather-Dashboard",
         deployed: "",
@@ -42,7 +42,7 @@ const projects = [
     },
     {
         title: "Password Generator",
-        img: "images/sample-1.jpg",
+        img: "images/password.png",
         description: "",
         github: "https://github.com/Pao1aG/Password-Generator",
         deployed: "",
@@ -50,7 +50,7 @@ const projects = [
     },
     {
         title: "Workday Scheduler",
-        img: "images/sample-1.jpg",
+        img: "images/workday.png",
         description: "",
         github: "https://github.com/Pao1aG/Workday-Scheduler",
         deployed: "",
@@ -58,7 +58,7 @@ const projects = [
     },
     {
         title: "Code Quiz",
-        img: "images/sample-1.jpg",
+        img: "images/quiz.png",
         description: "",
         github: "https://github.com/Pao1aG/Code-Quiz",
         deployed: "",
@@ -66,7 +66,7 @@ const projects = [
     },
     {
         title: "Team Profile Generator",
-        img: "images/sample-1.jpg",
+        img: "images/team.png",
         description: "",
         github: "https://github.com/Pao1aG/Team-Profile-Generator",
         deployed: "",
