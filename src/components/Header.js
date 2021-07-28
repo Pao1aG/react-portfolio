@@ -1,4 +1,5 @@
 import React from 'react';
+import "./styles/Header.css";
 
 
 //Links to About Me, Portfolio, Contact, and Resume
@@ -8,9 +9,9 @@ function Header({ currentPage, handlePageChange }) {
     return(
         <header>
         <nav>
-            <div class="nav-wrapper pink darken-4">
-              <a href="/" class="brand-logo">Paola Gonzalez</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <div className="nav-wrapper pink darken-4">
+              <a href="/" className="brand-logo">Paola Gonzalez</a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li className={currentPage === "About" ? "active" : ""}>
                     <a 
                     href="#about" 
