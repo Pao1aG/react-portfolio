@@ -1,0 +1,16 @@
+footer a {
+    font-size: 1.8rem;
+}
+
+footer a:hover {
+    opacity: 50%;
+    font-size: 250%;
+}
+
+.flexLinks{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
