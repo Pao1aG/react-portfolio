@@ -28,7 +28,7 @@ function Footer() {
 
             <div className="footer-copyright">
             <div className="container center-align">
-            © 2014 Copyright Text
+            © 2021 Paola Gonzalez
             </div>
             </div>
       </footer>
