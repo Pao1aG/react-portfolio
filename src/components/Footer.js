@@ -10,17 +10,19 @@ function Footer() {
                 <ul className="center-align flexLinks">
                     <li>
                         <a className="grey-text text-lighten-3" 
-                        href="https://www.github.com/Pao1aG/" target="_blank" rel="noreferrer">GitHub
+                        href="https://www.github.com/Pao1aG/" target="_blank" rel="noreferrer"> 
+                        <img src="/images/icons/github.png" alt=""/>
                         </a>
                     </li>
                     <li>
                         <a className="grey-text text-lighten-3" 
-                        href="https://www.linkedin.com/in/paolaagonzalezm/" target="_blank" rel="noreferrer">LinkedIn
+                        href="https://www.linkedin.com/in/paolaagonzalezm/" target="_blank" rel="noreferrer">
+                        <img src="/images/icons/linkedin.png" alt=""/>
                         </a>
                     </li>
                     <li>
-                        <a className="grey-text text-lighten-3" 
-                        href="#!">Facebook
+                        <a className="grey-text text-lighten-3" href="mailto:paolaagonzalezm@email.arizona.edu" target="_blank" rel="noreferrer">
+                        <img src="/images/icons/email.png" alt=""/>
                         </a>
                     </li>
                 </ul>

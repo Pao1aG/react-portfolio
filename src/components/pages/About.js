@@ -9,7 +9,7 @@ function About() {
         <div className="container aboutMe">
             <div className="row">
                 <div className="col m6 s12">
-                    <img src="images/profile-pic.jpg" className="circle responsive-img" alt=""/>
+                    <img src="images/profile-pic.jpg" className="responsive-img" alt=""/>
                 </div>
                 <div className="col m6 s12">
                     <p className="flow-text">Welcome to my Portfolio! My name is Paola Gonzalez and I am currently a student of the Trilogy Coding Bootcamp through the University of Arizona (UArizona).</p>
