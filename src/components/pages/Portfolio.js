@@ -5,7 +5,7 @@ import "../styles/Portfolio.css";
 const projects = [
     {
         title: "Hairdresser Website",
-        img: "/images/hairdresser.png",
+        img: "images/hairdresser.png",
         github: "https://github.com/JMan4342/Hair-Dresser",
         deployed: "https://jman4342.github.io/Hair-Dresser/Hairdresser.html",
         id: 1,
