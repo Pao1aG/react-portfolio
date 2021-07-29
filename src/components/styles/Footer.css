@@ -2,9 +2,9 @@ footer a {
     font-size: 1.8rem;
 }
 
-footer a:hover {
+/* footer a:hover {
     opacity: 60%;
-}
+} */
 
 .flexLinks{
     display: flex;
