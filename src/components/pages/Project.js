@@ -12,15 +12,15 @@ import React from 'react';
 
 function Project({title, img, description, github, deployed}) {
     return (
-        <div className="col s12 m6">
+        <div className="col s12 m6 hoverable">
             <div className="card">
                 <div className="card-image">
                     <img src={img} alt=""/>
                     <span className="card-title">{title}</span>
                 </div>
-                <div className="card-content">
+                {/* <div className="card-content">
                     <p>{description}</p>
-                </div>
+                </div> */}
                 <div className="card-action">
                     <a href={github} target="_blank" rel="noreferrer">GitHub</a>
                     <a href={deployed} target="_blank" rel="noreferrer">Deployed App</a>

@@ -48,18 +48,8 @@ function Contact() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    if(!name) {
-      setErrorMsg("Name field is required");
-      return;
-    }
-
-    if(!email) {
-      setErrorMsg("Email field is required");
-      return;
-    }
-
-    if(!message) {
-      setErrorMsg("Message field is required");
+    if(!name || !email || !message) {
+      setErrorMsg("Fields are required");
       return;
     }
 
