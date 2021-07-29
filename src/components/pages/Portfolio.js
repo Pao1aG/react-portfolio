@@ -2,14 +2,10 @@ import React from "react";
 import Project from "./Project";
 import "../styles/Portfolio.css";
 
-//PORTFOLIO
-    //render Project.js
-
 const projects = [
     {
         title: "Hairdresser Website",
         img: "/images/hairdresser.png",
-        description: "",
         github: "https://github.com/JMan4342/Hair-Dresser",
         deployed: "https://jman4342.github.io/Hair-Dresser/Hairdresser.html",
         id: 1,
@@ -17,7 +13,6 @@ const projects = [
     {
         title: "Tech Blog",
         img: "images/techblog.png",
-        description: "",
         github: "https://github.com/Pao1aG/Tech-Blog",
         deployed: "https://floating-brushlands-26906.herokuapp.com/signup",
         id: 2,
@@ -25,7 +20,6 @@ const projects = [
     {
         title: "Cities2See",
         img: " images/cities.png",
-        description: "",
         github: "https://github.com/Pao1aG/Cities2See",
         deployed: "https://cities2see.herokuapp.com/",
         id: 3,
@@ -33,7 +27,6 @@ const projects = [
     {
         title: "Weather Dashboard",
         img: "images/weather.png",
-        description: "",
         github: "https://github.com/Pao1aG/Weather-Dashboard",
         deployed: "",
         id: 4,
@@ -41,7 +34,6 @@ const projects = [
     {
         title: "Password Generator",
         img: "images/password.png",
-        description: "",
         github: "https://github.com/Pao1aG/Password-Generator",
         deployed: "",
         id: 5,
@@ -49,7 +41,6 @@ const projects = [
     {
         title: "Workday Scheduler",
         img: "images/workday.png",
-        description: "",
         github: "https://github.com/Pao1aG/Workday-Scheduler",
         deployed: "",
         id: 6,
@@ -57,7 +48,6 @@ const projects = [
     {
         title: "Code Quiz",
         img: "images/quiz.png",
-        description: "",
         github: "https://github.com/Pao1aG/Code-Quiz",
         deployed: "",
         id: 7,
@@ -65,7 +55,6 @@ const projects = [
     {
         title: "Team Profile Generator",
         img: "images/team.png",
-        description: "",
         github: "https://github.com/Pao1aG/Team-Profile-Generator",
         deployed: "",
         id: 8,

@@ -1,7 +1,6 @@
 import React from 'react';
 import "./styles/Header.css";
 
-
 //Links to About Me, Portfolio, Contact, and Resume
 
 //Destructuring currentPage and handlePageChange props from Navigation

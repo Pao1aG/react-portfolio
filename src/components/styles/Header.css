@@ -6,6 +6,10 @@ header {
     margin-left: 20px;
 }
 
+nav .brand-logo {
+    font-size: 2.5rem;
+}
+
 #nav-mobile a {
     font-size: 1.3rem;
 }

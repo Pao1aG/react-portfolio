@@ -4,7 +4,6 @@ import "../styles/Resume.css";
     //Downloadable resume and list of developer's proficiencies
 
 function Resume() {
-
     return (
         <>
         <div className="center-align">

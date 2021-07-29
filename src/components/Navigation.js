@@ -30,7 +30,6 @@ function Navigation() {
     }
 
     //Function to update useState
-
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (

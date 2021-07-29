@@ -13,7 +13,7 @@ function Contact() {
   const[message, setMessage] = useState("");
   const[errorMsg, setErrorMsg] = useState("");
 
-  //For when an email address is being entered, update the useState to email in the input field
+  //When an email address is being entered, update the useState to string in the input field
   const handleInputChange = (event) => {
     //this is the same as event.target
     const { target } = event;

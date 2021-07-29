@@ -10,7 +10,7 @@ import React from 'react';
 
 // A link to the corresponding GitHub repository
 
-function Project({title, img, description, github, deployed}) {
+function Project({title, img, github, deployed}) {
     return (
         <div className="col s12 m6 hoverable">
             <div className="card">
@@ -18,9 +18,6 @@ function Project({title, img, description, github, deployed}) {
                     <img src={img} alt=""/>
                     <span className="card-title">{title}</span>
                 </div>
-                {/* <div className="card-content">
-                    <p>{description}</p>
-                </div> */}
                 <div className="card-action">
                     <a href={github} target="_blank" rel="noreferrer">GitHub</a>
                     <a href={deployed} target="_blank" rel="noreferrer">Deployed App</a>
