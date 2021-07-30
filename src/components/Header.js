@@ -9,7 +9,7 @@ function Header({ currentPage, handlePageChange }) {
         <header>
         <nav>
             <div className="nav-wrapper pink darken-4">
-              <a href="/" className="brand-logo">Paola Gonzalez</a>
+              <a href="#about" className="brand-logo">Paola Gonzalez</a>
               <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li className={currentPage === "About" ? "active" : ""}>
