@@ -5,6 +5,8 @@
 
 .card .card-title {
     font-size: 3.2rem;
+    background:rgb(167, 129, 26);
+    border-radius: 4px;
 }
 
 .card a {

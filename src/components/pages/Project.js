@@ -19,8 +19,8 @@ function Project({title, img, github, deployed}) {
                     <span className="card-title">{title}</span>
                 </div>
                 <div className="card-action">
-                    <a href={github} target="_blank" rel="noreferrer">{title}</a>
-                    <a href={deployed} target="_blank" rel="noreferrer">Deployed App</a>
+                    <a href={github} target="_blank" rel="noreferrer">GitHub</a>
+                    <a href={deployed} target="_blank" rel="noreferrer">{title}</a>
                 </div>
             </div>
         </div>
