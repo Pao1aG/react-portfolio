@@ -3,11 +3,13 @@
     overflow: hidden;
 }
 
+.card .card-title {
+    font-size: 3.2rem;
+}
+
 .project-title {
-    font-size: 3.4rem;
     background:rgb(167, 129, 26);
-    opacity: 95%;
-    border-radius: 4px;;
+    border-radius: 4px;
 }
 
 .card a {
