@@ -6,7 +6,8 @@
 .card .card-image .card-title {
     font-size: 3.2rem;
    color: white;
-   background-color: midnightblue !important;
+   background-color: #B47F1D !important;
+   opacity: 95% !important;
 }
 
 .card a {
