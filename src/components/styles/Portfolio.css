@@ -3,9 +3,10 @@
     overflow: hidden;
 }
 
-.card .card-title {
+.card .card-image .card-title {
     font-size: 3.2rem;
-   color: black;
+   color: white;
+   background-color: midnightblue !important;
 }
 
 .card a {
