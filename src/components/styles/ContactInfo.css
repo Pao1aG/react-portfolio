@@ -1,0 +1,10 @@
+.card-content {
+    font-size: 2rem;
+    line-height: 2.5;
+    margin-top: 15px;
+}
+
+.card-action a {
+    font-weight: bold;
+    font-size: 2rem;
+}
