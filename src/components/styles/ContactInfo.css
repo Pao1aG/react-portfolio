@@ -1,3 +1,17 @@
+.container {
+    max-width: 800px;
+}
+
+.flexDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
 .card-content {
     font-size: 2rem;
     line-height: 2.5;

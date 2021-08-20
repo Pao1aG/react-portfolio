@@ -23,7 +23,7 @@ function Header({ currentPage, handlePageChange }) {
                     <a 
                     href="#portfolio" 
                     onClick={() => handlePageChange("Portfolio")}>
-                    Porfolio
+                    Portfolio
                     </a>
                 </li>
                 <li className={currentPage === "Contact" ? "active" : ""}>
