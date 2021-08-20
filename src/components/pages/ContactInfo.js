@@ -4,7 +4,7 @@ import "../styles/ContactInfo.css";
 function ContactInfo() {
 
     return(
-        <div className="container">
+        <div className="container contactDiv">
             <div className="flexDiv">
                 <div className="col s12 m7">
                     <h4>Email</h4>
