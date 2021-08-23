@@ -13,9 +13,10 @@ function About() {
                 </div>
                 <div className="col m6 s12">
                     <p className="flow-text">Welcome to my Portfolio! My name is Paola Gonzalez and I am a graduate of the Trilogy Coding Bootcamp through the University of Arizona (UArizona).</p>
-                    <p className="flow-text">Before I took the step to delve into the exciting world of coding, I studied public health at UArizona earning both a Bachelor of Science and a Masters degree. </p>
-                    <p className="flow-text"> Throughout my career, I have served my community through projects that utilized my skills in organization and creativity. When I worked as a Community Nutrition Educator, I designed educational materials to teach over Zoom and co-directed, filmed, and edited videos for our participants. I have also managed and maintained the social media and online outreach materials of different organizations. </p>
-                    <p className="flow-text">All roads have lead me here... The time spent researching, designing, and collaborating with people of many different backgrounds has inspired me to take on coding projects such as the ones you will see here.</p>
+                    <p className="flow-text"> I am a Full Stack Web Developer with skills in HTML, CSS, JavaScript and MVC and MERN Stack-oriented web design and technologies. My aim is to create MERN Stack applications that meet the client’s goals and enhance the user experience by leveraging my technical, professional, and interpersonal skills as part of a quality-driven team.</p>
+                    <p className="flow-text">Before I took the step to delve into the exciting world of coding, I studied Public Health at UArizona earning both a Bachelor of Science and a Masters degree. </p>
+                    <p className="flow-text"> Throughout my career, I have served my community through projects that utilized my skills in communication, organization, and creativity. When I worked as a Community Nutrition Educator, I designed educational materials to teach over Zoom and co-directed, filmed, and edited videos for our participants. I have also managed and maintained the social media and online outreach materials of different organizations. </p>
+                    <p className="flow-text">All roads have lead me here... The time spent studying, researching, designing, and collaborating with people of many different backgrounds has strengthened my interpersonal and technical skills and has inspired me to take on coding projects such as the ones you will see here.</p>
                     <p className="flow-text">I will keep this page updated with new projects. Do visit again soon!</p>
                 </div>
             </div>
