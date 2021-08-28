@@ -10,11 +10,10 @@ function ContactInfo() {
                     <h4>Email</h4>
                     <div className="card brown lighten-5">
                         <div className="card-content center-align">
-                            <p className="flow-text">paolaagonzalezm@email.arizona.edu</p>
                             <p className="flow-text">paolaagonzalezm@gmail.com</p>
                         </div>
                         <div className="card-action">
-                            <a href="mailto:paolaagonzalezm@email.arizona.edu" target="_blank" rel="noreferrer">Email Me</a>
+                            <a href="mailto:paolaagonzalezm@gmail.com" target="_blank" rel="noreferrer">Email Me</a>
                         </div>
                     </div>
                 </div>
