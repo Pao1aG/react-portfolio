@@ -10,7 +10,7 @@ import React from 'react';
 
 // A link to the corresponding GitHub repository
 
-function Project({title, img, description, github, deployed}) {
+function Assignment ({title, img, description, github}) {
     return (
         <div className="col s12 m6">
             <div className="card">
@@ -23,7 +23,6 @@ function Project({title, img, description, github, deployed}) {
                 </div>
                 <div className="card-action">
                     <a href={github} target="_blank" rel="noreferrer">GitHub</a>
-                    <a href={deployed} target="_blank" rel="noreferrer">{title}</a>
                 </div>
             </div>
         </div>
@@ -31,4 +30,4 @@ function Project({title, img, description, github, deployed}) {
 
 }
 
-export default Project;
+export default Assignment;

@@ -13,6 +13,12 @@
     font-size: 1.5rem;
 }
 
+.card-desc p {
+    color: gray;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
 .card-action {
     display: flex;
     flex-direction: row;
