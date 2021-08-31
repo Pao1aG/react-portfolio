@@ -3,14 +3,21 @@
     overflow: hidden;
 }
 
-.card .card-image .card-title {
+/* .card .card-image .card-title {
     font-size: 3.2rem;
    color: white;
    background-color: #B47F1D !important;
+} */
+
+.card .card-content span, 
+.card .card-reveal span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:darkslategrey;
 }
 
-.card a {
-    font-size: 1.5rem;
+.card .card-action a {
+    font-size: 1.6rem;
 }
 
 .card-desc p {

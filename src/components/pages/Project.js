@@ -10,20 +10,26 @@ import React from 'react';
 
 // A link to the corresponding GitHub repository
 
-function Project({title, img, description, github, deployed}) {
+function Project({title, img, tech, description, github, deployed}) {
     return (
         <div className="col s12 m6">
             <div className="card">
                 <div className="card-image">
                     <img src={img} alt=""/>
-                    <span className="card-title">{title}</span>
                 </div>
-                <div className="card-desc center-align flow-text">
-                    <p> {description} </p> 
+                <div className="card-content">
+                    <span className="card-title activator">{title}<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div className="card-reveal">
+                    <span className="card-title">{title}<i class="material-icons right">close</i></span>
+                    <div className="card-desc center-align flow-text">
+                        <p> {tech} </p> 
+                        <p> {description} </p> 
+                    </div>
                 </div>
                 <div className="card-action">
                     <a href={github} target="_blank" rel="noreferrer">GitHub</a>
-                    <a href={deployed} target="_blank" rel="noreferrer">{title}</a>
+                    <a href={deployed} target="_blank" rel="noreferrer" className="flow-text">Deployed App</a>
                 </div>
             </div>
         </div>
