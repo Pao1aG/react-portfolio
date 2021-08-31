@@ -17,18 +17,18 @@ function Assignment ({title, img, tech, description, github}) {
                 <div className="card-image">
                     <img src={img} alt=""/>
                 </div>
-                <div className="card-content">
-                    <span className="card-title activator">{title}<i class="material-icons right">more_vert</i></span>
+                <div className="card-content title-background">
+                    <span className="card-title activator">{title}<i className="material-icons right">more_vert</i></span>
                 </div>
                 <div className="card-reveal">
-                    <span className="card-title">{title}<i class="material-icons right">close</i></span>
+                    <span className="card-title">{title}<i className="material-icons right">close</i></span>
                     <div className="card-desc center-align flow-text">
                         <p> {tech} </p> 
                         <p> {description} </p> 
                     </div>
                 </div>
                 <div className="card-action">
-                    <a href={github} target="_blank" rel="noreferrer">GitHub</a>
+                    <a href={github} target="_blank" rel="noreferrer" className="cyan-text text-darken-3">GitHub</a>
                 </div>
             </div>
         </div>

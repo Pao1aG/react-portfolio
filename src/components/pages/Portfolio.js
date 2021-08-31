@@ -57,14 +57,14 @@ const assignments = [
         title: "Password Generator",
         img: "images/password.png",
         tech: "Tech: HTML, CSS, JavaScript",
-        description: "Generate a random password string based on users' preferences of character length and the inclusion or exclusion of character types such as lowercase, uppercase, numeric, and special.",
+        description: "Generate a random password string based on user's preferences of character length and the inclusion or exclusion of character types such as lowercase, uppercase, numeric, and special.",
         github: "https://github.com/Pao1aG/Password-Generator",
     },
     {
         title: "Code Quiz",
         img: "images/quiz.png",
         tech: "Tech: HTML, CSS, JavaScript",
-        description: "Timed quiz coding quiz with ability to save high time score",
+        description: "Timed coding quiz with ability to save high time score",
         github: "https://github.com/Pao1aG/Code-Quiz",
     },
 ]

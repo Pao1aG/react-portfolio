@@ -9,15 +9,23 @@
    background-color: #B47F1D !important;
 } */
 
+.card .title-background {
+    background-color: #edc957;
+}
+
 .card .card-content span, 
 .card .card-reveal span {
     font-size: 1.8rem;
     font-weight: bold;
-    color:darkslategrey;
+    color:rgb(28, 43, 43);
 }
 
 .card .card-action a {
     font-size: 1.6rem;
+}
+
+.card .card-action a:hover {
+    opacity: 60%;
 }
 
 .card-desc p {

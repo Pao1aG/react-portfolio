@@ -13,7 +13,7 @@ function ContactInfo() {
                             <p className="flow-text">paolaagonzalezm@gmail.com</p>
                         </div>
                         <div className="card-action">
-                            <a href="mailto:paolaagonzalezm@gmail.com" target="_blank" rel="noreferrer">Email Me</a>
+                            <a href="mailto:paolaagonzalezm@gmail.com" target="_blank" rel="noreferrer" className="cyan-text text-darken-3">Email Me</a>
                         </div>
                     </div>
                 </div>
@@ -26,8 +26,8 @@ function ContactInfo() {
                             <p className="flow-text">LinkedIn: /paolaagonzalezm </p>
                         </div>
                         <div className="card-action">
-                            <a  href="https://www.github.com/Pao1aG/" target="_blank" rel="noreferrer">GitHub</a>
-                            <a  href="https://www.linkedin.com/in/paolaagonzalezm/" target="_blank" rel="noreferrer">LinkedIn</a>
+                            <a  href="https://www.github.com/Pao1aG/" target="_blank" rel="noreferrer" className="cyan-text text-darken-3">GitHub</a>
+                            <a  href="https://www.linkedin.com/in/paolaagonzalezm/" target="_blank" rel="noreferrer" className="cyan-text text-darken-3">LinkedIn</a>
                         </div>
                     </div>
                 </div>
