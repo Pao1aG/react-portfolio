@@ -24,7 +24,7 @@ const projects = [
         title: "Hairdresser Website",
         img: "images/hairdresser.png",
         tech: "Tech: HTML, CSS, JavaScript, Node.js, Google Maps API, Pexel API",
-        description: "Web site for a hairdresser to advertise their services and for clients to find the salon location.",
+        description: "Website for a hairdresser to advertise their services and for clients to find the salon location.",
         github: "https://github.com/JMan4342/Hair-Dresser",
         deployed: "https://pao1ag.github.io/Hair-Dresser/",
     },
@@ -50,7 +50,7 @@ const assignments = [
         title: "Workday Scheduler",
         img: "images/workday.png",
         tech: "Tech: HTML, CSS, jQuery, Bootstrap",
-        description: "This web application can be used as a daily planner for the workday. Events/tasks are saved through the save button. These can be revisited even after page reload.",
+        description: "This web application can be used as a daily planner for the workday. Events/tasks can be saved or deleted. Saved tasks can be revisited even after page reload.",
         github: "https://github.com/Pao1aG/Workday-Scheduler",
     },
     {
@@ -84,6 +84,7 @@ function Portfolio() {
             <Assignment
             {...assignment}
             key={assignment.id}/>)}
+            {/* <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_upward</i></a> */}
         </div>
         </>
     )

@@ -3,12 +3,6 @@
     overflow: hidden;
 }
 
-/* .card .card-image .card-title {
-    font-size: 3.2rem;
-   color: white;
-   background-color: #B47F1D !important;
-} */
-
 .card .title-background {
     background-color: #edc957;
 }
@@ -24,14 +18,10 @@
     font-size: 1.6rem;
 }
 
-.card .card-action a:hover {
-    opacity: 60%;
-}
-
 .card-desc p {
-    color: gray;
-    margin-left: 6px;
-    margin-right: 6px;
+    color: rgb(65, 62, 62);
+    /* margin-left: 6px;
+    margin-right: 6px; */
 }
 
 .card-action {

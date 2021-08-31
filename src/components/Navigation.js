@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import About from "../components/pages/About";
 import Portfolio from "../components/pages/Portfolio";
+import Skills from "../components/pages/Skills";
 import ContactInfo from "../components/pages/ContactInfo";
 import Resume from "../components/pages/Resume";
 
@@ -20,6 +21,9 @@ function Navigation() {
         }
         if (currentPage === "Portfolio") {
             return <Portfolio />
+        }
+        if (currentPage === "Skills") {
+            return <Skills />
         }
         if (currentPage === "Contact") {
             return <ContactInfo />
