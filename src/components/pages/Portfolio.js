@@ -50,6 +50,7 @@ const assignments = [
         tech: "Tech: HTML, CSS, JavaScript, OpenWeatherMap API",
         description: "Web application to view weather information and 5-day forecast for major cities around the world.",
         github: "https://github.com/Pao1aG/Weather-Dashboard",
+        deployed: "https://pao1ag.github.io/Weather-Dashboard/"
     },
     {
         title: "Workday Scheduler",
@@ -58,6 +59,7 @@ const assignments = [
         tech: "Tech: HTML, CSS, jQuery, Bootstrap",
         description: "This web application can be used as a daily planner for the workday. Events/tasks can be saved or deleted. Saved tasks can be revisited even after page reload.",
         github: "https://github.com/Pao1aG/Workday-Scheduler",
+        deployed: "https://pao1ag.github.io/Workday-Scheduler/"
     },
     {
         title: "Password Generator",
@@ -66,6 +68,7 @@ const assignments = [
         tech: "Tech: HTML, CSS, JavaScript",
         description: "Generate a random password string based on user's preferences of character length and the inclusion or exclusion of character types such as lowercase, uppercase, numeric, and special.",
         github: "https://github.com/Pao1aG/Password-Generator",
+        deployed: "https://pao1ag.github.io/Password-Generator/"
     },
     {
         title: "Code Quiz",
@@ -74,6 +77,7 @@ const assignments = [
         tech: "Tech: HTML, CSS, JavaScript",
         description: "Timed coding quiz with ability to save high time score",
         github: "https://github.com/Pao1aG/Code-Quiz",
+        deployed: "https://pao1ag.github.io/Code-Quiz/"
     },
 ]
 

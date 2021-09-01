@@ -36,8 +36,8 @@ To access the Portfolio, visit <>
 
 ## Images
 
-![Screenshot of Portfolio](/public/images/screenshot.png)
-![Screenshot of Portfolio](/public/images/screenshot2.png)
+![Screenshot of Portfolio](/public/images/portfolio_screenshot1.png)
+![Screenshot of Portfolio](/public/images/portfolio_screenshot2.png)
 
 ## Credits
 MIT badge was accessed from GitHub user [Lukas Himsel](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)

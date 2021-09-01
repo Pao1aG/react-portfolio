@@ -10,7 +10,7 @@ import React from 'react';
 
 // A link to the corresponding GitHub repository
 
-function Assignment ({title, img, hiddenImg, tech, description, github}) {
+function Assignment ({title, img, hiddenImg, tech, description, github, deployed}) {
     return (
         <div className="col s12 m6">
             <div className="card">
@@ -30,6 +30,7 @@ function Assignment ({title, img, hiddenImg, tech, description, github}) {
                 </div>
                 <div className="card-action">
                     <a href={github} target="_blank" rel="noreferrer" className="cyan-text text-darken-3">GitHub</a>
+                    <a href={deployed} target="_blank" rel="noreferrer" className="cyan-text text-darken-3">Deployed App</a>
                 </div>
             </div>
         </div>
