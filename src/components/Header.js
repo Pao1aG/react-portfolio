@@ -9,7 +9,7 @@ function Header({ currentPage, handlePageChange }) {
         <header>
         <nav>
             <div className="nav-wrapper pink darken-4">
-              <a href="#about"  onClick={() => handlePageChange("About")} className="brand-logo">Paola Gonzalez</a>
+              <a href="#about"  onClick={() => handlePageChange("About")} className="brand-logo flow-text">Paola Gonzalez</a>
               <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li className={currentPage === "About" ? "active" : ""}>
@@ -26,13 +26,13 @@ function Header({ currentPage, handlePageChange }) {
                     Portfolio
                     </a>
                 </li>
-                {/* <li className={currentPage === "Skills" ? "active" : ""}>
+                <li className={currentPage === "Skills" ? "active" : ""}>
                     <a 
                     href="#skills" 
                     onClick={() => handlePageChange("Skills")}>
                     Tech Skills
                     </a>
-                </li> */}
+                </li>
                 <li className={currentPage === "Contact" ? "active" : ""}>
                     <a 
                     href="#contact" 
